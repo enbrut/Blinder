@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+@media (max-width: 600px) {
+  body {
+    background: #fff;
+  }
+  section, header, footer {
+    padding: 15px;
+  }
+  header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  h1 {
+    font-size: 44px;
+    font-weight: 100;
+    color: #7245B2;
+    margin: 0;
+  }
+  h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #fff;
+  }
+  .head-principle p {
+    font-size: 13px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    /*position: relative;
+    height: 300px;
+  background-image: linear-gradient(#ff9d2f, #ff6126);*/
+  }
+  .head-principle img {
+    margin-bottom: 15px;
+  }
+  .head-principle {
+    background-color: yellow;
+    align-self: self-start;
+  }
+  .head-principle p {
+    text-transform: uppercase;
+  }
+
+  .screen1 {
+    width: 50%;
+  }
+  .question{
+    background-color: #7245B2;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+
+    }
+    .arguments {
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+    }
+    .arguments p {
+      color: #7245B2;
+      font-size: 18px;
+      font-weight: 200;
+    }
+    .arguments img {
+      margin:0 25px;
+    }
+    main {
+      padding-bottom: 125px;
+    }
+    .question {
+
+       transform: skewY(2.5deg)
+    }
+
+  .button {
+    display: block;
+    background-color: #7245B2;
+    color: #FFF;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    width: 132px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 200;
+  }
+  footer {
+    background: #7245B2;
+    color: #FFF;
+    margin: 0;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 60px;
+
+  }
+  .social {
+    margin: auto;
+    text-align: right;
+    position: absolute;
+    top: -22px;
+  }
+  .social img {
+    margin: 0 15px
+  }
+
+  form {
+    margin: 15px;
+    padding: 5px;
+  }
+
+}
